@@ -1,14 +1,14 @@
 {
-    "name": "BilboStack",
-    "short_name": "BilboStack",
+    "name": "WeCode",
+    "short_name": "WeCode",
     "icons": [
         {
-            "src": "/android-chrome-192x192.png",
+            "src": "/wecode.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/android-chrome-512x512.png",
+            "src": "/wecode.png",
             "sizes": "512x512",
             "type": "image/png"
         }
