@@ -8,3 +8,5 @@ scripts/variables.sh
 backup
 backup.log
 ./data
+
+.idea/
