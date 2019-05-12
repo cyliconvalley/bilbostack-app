@@ -1,19 +1,19 @@
 {
-    "name": "WeCode",
-    "short_name": "WeCode",
+    "name": "LechazoConf",
+    "short_name": "LechazoConf",
     "icons": [
         {
-            "src": "/wecode.png",
+            "src": "/lechazoconf-text.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/wecode.png",
+            "src": "/lechazoconf-text.png",
             "sizes": "512x512",
             "type": "image/png"
         }
     ],
-    "theme_color": "#542836",
-    "background_color": "#542836",
+    "theme_color": "#EFBF7C",
+    "background_color": "#743D51",
     "display": "standalone"
 }
