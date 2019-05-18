@@ -8,7 +8,7 @@ const talks = {
         when: '09:30-09:35'
     },
     'angelica': {
-        name: 'Angélica Lozano',
+        name: '#palantismo: aprender haciendo',
         description: '',
         speaker: 'Angélica Lozano',
         speakerImage: 'angelica.png',
@@ -43,8 +43,8 @@ const talks = {
         when: '12:30:13:15'
     },
     'rachellondoner': {
-        name: 'Raquel Pérez',
-        description: '',
+        name: 'Cambio de rumbo: hoy líder de equipo, mañana CEO.',
+        description: 'Diario de un viaje de cambio de rol en Solid GEAR de líder de equipo a CEO. Cómo he ido cambiando el chip y aprendiendo con el equipo, aprendiendo, a veces a costa de un prueba, error y recalcular. En los últimos 3 años Cómo cambiar el chip, lecciones aprendidas en el día a día',
         speaker: 'Raquel Pérez',
         speakerImage: 'raquel2.png',
         when: '13:15:13:45'
@@ -63,16 +63,16 @@ const talks = {
         speakerImage: 'saul.png',
         when: '15:30:16:00'
     },
-    'oyabun': {
-        name: 'Por el amor de {$deity$} , ¡No soy pintor!',
+    'txarly': {
+        name: 'Hazte donante. Cómo una empresa en las últimas dio vida a dos proyectos',
         description: '',
-        speaker: 'Javier Alonso',
-        speakerImage: 'javier.svg',
+        speaker: 'Carlos Sánchez',
+        speakerImage: 'txarly.png',
         when: '16:00:16:45'
     },
     'reinaldo': {
-        name: 'Reinaldo Aguilera',
-        description: '',
+        name: 'Cosas que aprendes organizando comunidades',
+        description: 'Busco explicar los aciertos, fallos, alegrías y desengaños que sufrimos los organizadores de comunidades y eventos. Mi intención es dar un paseo por diferentes momentos de lo que es un organizador. Esa persona que esta allí y sonríe pero que muchas veces no tiene que ser todo alegría. Espero poder explicar en 20 minutos los últimos 7 años organizando saraos.',
         speaker: 'Reinaldo Aguilera',
         speakerImage: 'reinaldo.png',
         when: '17:15:17:45'
