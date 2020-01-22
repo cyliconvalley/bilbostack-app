@@ -14,7 +14,7 @@ const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'admin';
 
 const config = {
     title: 'WeCode',
-    year: '2019',
+    year: '2020',
     twitter: '@wecodefest',
     baseUrl: process.env.BASE_URL || 'http://localhost:8000'
 };
