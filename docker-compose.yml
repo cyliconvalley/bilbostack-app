@@ -9,7 +9,7 @@ services:
       - POSTGRES_DB=eventtoolbox
       - PGDATA=/var/lib/postgresql/data/pgdata
     volumes:
-      - ./data:/var/lib/postgresql/data
+      - ${WEBAPP_STORAGE_HOME}/data:/var/lib/postgresql/data
 
   adminer:
     image: adminer
