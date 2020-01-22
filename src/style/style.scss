@@ -55,6 +55,10 @@ html, body {
     padding: 15px 25px;
 }
 
+.bsr-header-logo{
+    width: 50%;
+}
+
 .bsr-header-title {
     font-size: 2.5em;
     margin: 0 8px;
@@ -277,7 +281,7 @@ html, body {
 }
 
 .bsr-talk-speaker {
-    padding: 15px 15px 0 15px;
+    padding: 15px 0 0 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -298,7 +302,7 @@ html, body {
     background-position: center;
     margin-right: 20px;
     flex-shrink: 0;
-    border-radius: 50% * $roundness;
+    border-radius: 10% * $roundness;
 }
 
 .bsr-talk-speaker-info {

@@ -1,6 +1,5 @@
 const talks = {
-
-
+    
     'presentacion': {
         name: 'Presentación WeCode 2019',
         description: `Presentación (Salón de Grados)`,
