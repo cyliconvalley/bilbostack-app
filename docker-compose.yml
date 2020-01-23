@@ -5,6 +5,7 @@ services:
     image: cyliconvalley.azurecr.io/postgres:10.2-alpine
     restart: always
     environment:
+      POSTGRES_USER: postgres
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       POSTGRES_DB: eventtoolbox
       PGDATA: /var/lib/postgresql/data/pgdata
@@ -25,7 +26,7 @@ services:
       - "443:443"
     environment:
       REDIS_URL: redis://redis:6379
-      DATABASE_URL: postgresql://postgres:${POSTGRES_PASSWORD}@db/eventtoolbox
+      DATABASE_URL: ${DATABASE_URL}
       BASE_URL: ${BASE_URL}
       ADMIN_USER: ${ADMIN_USER}
       ADMIN_PASSWORD: ${ADMIN_PASSWORD}
