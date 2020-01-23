@@ -9,4 +9,4 @@ RUN npm install && \
     rm -rf ./node_modules && \
     npm install --production
 ENV NODE_ENV=production
-CMD npm migrate && npm start
+CMD npm run migrate && npm start
