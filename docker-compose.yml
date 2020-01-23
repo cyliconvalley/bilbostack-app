@@ -16,7 +16,7 @@ services:
     restart: always
 
   app:
-    image: cyliconvalley.azurecr.io/eventtoolbox:8
+    image: cyliconvalley.azurecr.io/eventtoolbox:latest
     restart: always
     build:
       context: .
