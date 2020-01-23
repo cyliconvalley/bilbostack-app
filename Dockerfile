@@ -6,8 +6,7 @@ ADD index.js .
 ADD src ./src
 RUN npm install && \
     npm run style:build && \
-    npm migrate && \
     rm -rf ./node_modules && \
     npm install --production
 ENV NODE_ENV=production
-CMD npm start
+CMD npm migrate && npm start
