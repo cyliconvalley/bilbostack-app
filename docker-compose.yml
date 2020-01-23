@@ -2,36 +2,33 @@ version: "2"
 
 services:
   db:
-    image: postgres:10.2-alpine
+    image: cyliconvalley.azurecr.io/postgres:10.2-alpine
     restart: always
     environment:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       POSTGRES_DB: eventtoolbox
       PGDATA: /var/lib/postgresql/data/pgdata
     volumes:
-      - ${WEBAPP_STORAGE_HOME}/data:/var/lib/postgresql/data
-
-  adminer:
-    image: adminer
-    restart: always
-    ports:
-      - 127.0.0.1:8081:8080
+      - db-data:/var/lib/postgresql/data
 
   redis:
-    image: redis:alpine
+    image: cyliconvalley.azurecr.io/redis:alpine
     restart: always
 
   app:
-    image: eventtoolbox
+    image: cyliconvalley.azurecr.io/eventtoolbox:8
     restart: always
     build:
       context: .
     ports:
-      - "80"
-      - "443"
+      - "80:80"
+      - "443:443"
     environment:
       REDIS_URL: redis://redis:6379
       DATABASE_URL: postgresql://postgres:${POSTGRES_PASSWORD}@db/eventtoolbox
       BASE_URL: ${BASE_URL}
       ADMIN_USER: ${ADMIN_USER}
       ADMIN_PASSWORD: ${ADMIN_PASSWORD}
+
+volumes: 
+   db-data:
