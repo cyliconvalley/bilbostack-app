@@ -21,7 +21,7 @@ const talks = {
     'julian-sierra-jm': { name: 'Apache Beam: procesando datos como churros', description: 'Apache Beam: procesando datos como churros', speaker: 'Julián Sierra', speakerTitle: '', speakerImage: 'julian_cuadrado.jpg', speaker2: 'Jose Manuel Navarro', speakerTitle2: '', speakerImage2: 'jm.jpeg', track: '2', when: '15:30-17:30' },
     // 'track3-3': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '3', when: '15:30-16:30' },
     // 'track4-3': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '4', when: '15:30-16:30' },
-    'cynthia-galvez': { name: '¿Mamarracha con filtro o genialidad? Realidad aumentada facial', description: '¿Mamarracha con filtro o genialidad? Realidad aumentada facial', speaker: 'Cynthia Gálvez', speakerTitle: '', speakerImage: 'julian_cuadrado.jpg', track: '5', when: '15:30-17:30' },
+    'cynthia-galvez': { name: '¿Mamarracha con filtro o genialidad? Realidad aumentada facial', description: '¿Mamarracha con filtro o genialidad? Realidad aumentada facial', speaker: 'Cynthia Gálvez', speakerTitle: '', speakerImage: 'CynthiaGalvez.jpg', track: '5', when: '15:30-17:30' },
 
     // 'track1-4': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '1', when: '16:30-17:30' },
     // 'track3-4': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '3', when: '16:30-17:30' },
