@@ -1,7 +1,5 @@
 const talks = {
-    'presentacion': { name: 'Presentación WeCode 2020', description: `Presentación (Salón de Grados)`, speaker: 'Agilisto (Jorge - Semurat)', speakerTitle: 'Presidente de CyLicon Valley', speakerImage: 'semurat.jpg', track: '1', when: '10:00-10:30' },
-
-    'open-space-1': { name: 'Preparación Open Space y Café', description: `Preparación Open Space y Café`, speaker: 'CyLicon Valley', speakerTitle: '', speakerImage: '', track: '-', when: '10:30-11:30' },
+    'open-space-1': { name: 'Preparación Open Space y Café', description: `Preparación Open Space y Café`, speaker: 'CyLicon Valley', speakerTitle: '', speakerImage: 'Cylicon.png', track: '-', when: '10:30-11:30' },
 
     'clarity': { name: 'Clarity', description: 'Clarity', speaker: '', speakerTitle: '', speakerImage: '', track: '1', when: '12:00-13:00' },
     'alex-soto': { name: 'The Java microservices tutorial with Quarkus', description: 'The Java microservices tutorial with Quarkus', speaker: 'Alex Soto', speakerTitle: '', speakerImage: 'alex_soto.jpeg', track: '2', when: '12:00-14:00' },
