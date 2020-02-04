@@ -1,7 +1,7 @@
 const talks = {
     'open-space-1': { name: 'Preparación Open Space y Café', description: `Preparación Open Space y Café`, speaker: 'CyLicon Valley', speakerTitle: '', speakerImage: 'Cylicon.png', track: '-', when: '10:30-11:30' },
 
-    'clarity': { name: 'Construyendo cultura de datos', description: 'Construyendo cultura de datos', speaker: 'Javier Serrano', speakerTitle: '', speakerImage: '',speaker2: 'Rodrigo Quintana', speakerTitle2: '', speakerImage2: '' track: '1', when: '12:00-13:00' },
+    'clarity': { name: 'Construyendo cultura de datos', description: 'Construyendo cultura de datos', speaker: 'Javier Serrano', speakerTitle: '', speakerImage: '',speaker2: 'Rodrigo Quintana', speakerTitle2: '', speakerImage2: '', track: '1', when: '12:00-13:00' },
     'alex-soto': { name: 'The Java microservices tutorial with Quarkus', description: 'The Java microservices tutorial with Quarkus', speaker: 'Alex Soto', speakerTitle: '', speakerImage: 'alex_soto.jpeg', track: '2', when: '12:00-14:00' },
     // 'track3-1': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '3', when: '12:00-13:00' },
     'irene-perez': { name: 'Katas en Python', description: 'Katas en Python', speaker: 'Irene Pérez', speakerTitle: '', speakerImage: 'IrenePerezEncinar.jpeg', track: '4', when: '12:00-14:00' },
