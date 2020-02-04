@@ -1,7 +1,7 @@
 const talks = {
     'open-space-1': { name: 'Preparación Open Space y Café', description: `Preparación Open Space y Café`, speaker: 'CyLicon Valley', speakerTitle: '', speakerImage: 'Cylicon.png', track: '-', when: '10:30-11:30' },
 
-    'clarity': { name: 'Clarity', description: 'Clarity', speaker: '', speakerTitle: '', speakerImage: '', track: '1', when: '12:00-13:00' },
+    'clarity': { name: 'Construyendo cultura de datos', description: 'Construyendo cultura de datos', speaker: 'Javier Serrano', speakerTitle: '', speakerImage: '',speaker2: 'Rodrigo Quintana', speakerTitle2: '', speakerImage2: '' track: '1', when: '12:00-13:00' },
     'alex-soto': { name: 'The Java microservices tutorial with Quarkus', description: 'The Java microservices tutorial with Quarkus', speaker: 'Alex Soto', speakerTitle: '', speakerImage: 'alex_soto.jpeg', track: '2', when: '12:00-14:00' },
     // 'track3-1': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '3', when: '12:00-13:00' },
     'irene-perez': { name: 'Katas en Python', description: 'Katas en Python', speaker: 'Irene Pérez', speakerTitle: '', speakerImage: 'IrenePerezEncinar.jpeg', track: '4', when: '12:00-14:00' },
@@ -25,7 +25,7 @@ const talks = {
     // 'track3-4': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '3', when: '16:30-17:30' },
     // 'track4-4': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '4', when: '16:30-17:30' },
 
-    'devo': { name: 'Devo', description: 'Devo', speaker: '', speakerTitle: '', speakerImage: '', track: '1', when: '18:00-19:00' },
+    'devo': { name: 'Procesando video en streaming para monitorización continua', description: 'Procesando video en streaming para monitorización continua', speaker: 'Elizabeth González', speakerTitle: '', speakerImage: 'elizabeth.png', track: '1', when: '18:00-19:00' },
     'luru': { name: 'Construye tu API REST con .NET Core 3.0', description: 'Construye tu API REST con .NET Core 3.0', speaker: 'Luis Ruiz Pavón', speakerTitle: '', speakerImage: 'LuisRuizPavon.jpg', track: '2', when: '18:00-20:00' },
     // 'track3-5': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '3', when: '18:00-19:00' },
     // 'track4-5': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '4', when: '18:00-19:00' },
@@ -72,7 +72,7 @@ const talks = {
     // 'track3--5': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '3', when: '15:30-16:30' },
     // 'track5--5': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '5', when: '15:30-16:30' },
 
-    'everis': { name: 'Everis', description: 'Everis', speaker: '', speakerTitle: '', speakerImage: '', track: '1', when: '18:00-19:00' },
+    'everis': { name: 'Implementar APIs asíncronas con mule esb', description: 'Implementar APIs asíncronas con mule esb', speaker: 'Jorge Lebrato', speakerTitle: '', speakerImage: 'j_lebrato.jpeg', track: '1', when: '18:00-19:00' },
     'flipper': { name: 'Test end to end con Kotlin y Spring', description: 'Test end to end con Kotlin y Spring', speaker: 'Jorge J. Barroso', speakerTitle: '', speakerImage: 'jorge-barroso_c.png', track: '2', when: '18:00-20:00' },
     // 'track3--6': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '3', when: '18:00-19:00' },
     // 'track4--6': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '4', when: '18:00-19:00' },
