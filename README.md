@@ -83,3 +83,10 @@ All this will create a data folder with the PostgreSQL persistent information.
 ### Using a pre-compiled Docker image
 
 Inside `docker-compose.yml`, in `services.app`, replace `image: eventtoolbox` with the name of the correct image (including registry url) and remove the `build` parameter.
+
+### Updating DATA in production
+
+* Add Talks: Edit `src/data/talks.js`. The key shouldn't be changed after the talk has feedback or questions.
+* Add Images: `src/static`
+
+The talks are in `src/data/talks.js`.
