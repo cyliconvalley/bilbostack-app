@@ -1,5 +1,5 @@
 const talks = {
-    'open-space-1': { name: 'Preparación Open Space y Café', description: `Preparación Open Space y Café`, speaker: 'CyLicon Valley', speakerTitle: '', speakerImage: 'Wecode1.png', track: '-', when: '10:30-11:30' },
+    'open-space-1': { name: 'Preparación Open Space y Café', description: `Preparación Open Space y Café`, speaker: 'CyLicon Valley', speakerTitle: '', speakerImage: 'Wecode7.png', track: '-', when: '10:30-11:30' },
 
     'clarity': { name: 'Construyendo cultura de datos', description: 'Construyendo cultura de datos', speaker: 'Javier Serrano', speakerTitle: '', speakerImage: 'javiSerrano.jpg',speaker2: 'Rodrigo Quintana', speakerTitle2: '', speakerImage2: 'rodrigoQuintana.jpg', track: '1', when: '12:00-13:00' },
     'alex-soto': { name: 'The Java microservices tutorial with Quarkus', description: 'The Java microservices tutorial with Quarkus', speaker: 'Alex Soto', speakerTitle: '', speakerImage: 'alex_soto.jpeg', track: '2', when: '12:00-14:00' },
@@ -38,7 +38,7 @@ const talks = {
     // 'track4-6': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '4', when: '19:00-20:00' },
     // 'track5-6': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '5', when: '19:00-20:00' },
 
-    'retrospectiva1': { name: 'Retrospectiva Viernes', description: 'Retrospectiva Viernes', speaker: 'CyLicon Valley', speakerTitle: '', speakerImage: '', track: '1', when: '20:00-20:15' },    
+    'retrospectiva1': { name: 'Retrospectiva Viernes', description: 'Retrospectiva Viernes', speaker: 'CyLicon Valley', speakerTitle: '', speakerImage: 'Wecode1.png', track: '1', when: '20:00-20:15' },    
 
     'concurso': { name: 'Kahoot', description: `Kahoot`, speaker: 'CyLicon Valley', speakerTitle: '', speakerImage: 'Wecode5.png', track: '1', when: '09:00-09:30' },
 
