@@ -5,7 +5,7 @@ const talks = {
     'alex-soto': { name: 'The Java microservices tutorial with Quarkus', description: 'The Java microservices tutorial with Quarkus', speaker: 'Alex Soto', speakerTitle: '', speakerImage: 'alex_soto.jpeg', track: '2', when: '12:00-14:00' },
     'track3-1': { name: 'Event sourcing & CQAS', description: 'Event sourcing & CQAS', speaker: '', speakerTitle: '', speakerImage: '', track: '3', when: '12:00-13:00' },
     'irene-perez': { name: 'Katas en Python', description: 'Katas en Python', speaker: 'Irene Pérez', speakerTitle: '', speakerImage: 'IrenePerezEncinar.jpeg', track: '4', when: '12:00-14:00' },
-    'jeronimo lopez': { name: 'Experiencias Sun Monorepo', description: 'Experiencias Sun Monorepo', speaker: 'Jeronimo Lopez', speakerTitle: '', speakerImage: '', track: '5', when: '12:00-13:00' },
+    'jeronimo lopez': { name: 'Experiencias con Monorepo', description: 'Experiencias Sun Monorepo', speaker: 'Jeronimo Lopez', speakerTitle: '', speakerImage: '', track: '5', when: '12:00-13:00' },
 
     'Carlos Fernandez': { name: 'El mastodonte en la habitacion. Redes sociales federadas', description: 'El mastodonte en la habitacion. Redes sociales federadas', speaker: '@sirikon', speakerTitle: '', speakerImage: '', track: '1', when: '13:00-14:00' },
     'Cynthia Galvez': { name: 'Teletrabajo y conciliacion sin morir en el intento', description: 'Teletrabajo y conciliacion sin morir en el intento', speaker: '@icynthia', speakerTitle: '', speakerImage: '', track: '3', when: '13:00-14:00' },
