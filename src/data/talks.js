@@ -3,40 +3,40 @@ const talks = {
 
     'clarity': { name: 'Construyendo cultura de datos', description: 'Construyendo cultura de datos', speaker: 'Javier Serrano', speakerTitle: '', speakerImage: 'javiSerrano.jpg',speaker2: 'Rodrigo Quintana', speakerTitle2: '', speakerImage2: 'rodrigoQuintana.jpg', track: '1', when: '12:00-13:00' },
     'alex-soto': { name: 'The Java microservices tutorial with Quarkus', description: 'The Java microservices tutorial with Quarkus', speaker: 'Alex Soto', speakerTitle: '', speakerImage: 'alex_soto.jpeg', track: '2', when: '12:00-14:00' },
-    // 'track3-1': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '3', when: '12:00-13:00' },
+    'track3-1': { name: 'Event sourcing & CQAS', description: 'Event sourcing & CQAS', speaker: '', speakerTitle: '', speakerImage: '', track: '3', when: '12:00-13:00' },
     'irene-perez': { name: 'Katas en Python', description: 'Katas en Python', speaker: 'Irene Pérez', speakerTitle: '', speakerImage: 'IrenePerezEncinar.jpeg', track: '4', when: '12:00-14:00' },
-    // 'track5-1': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '5', when: '12:00-13:00' },
+    'jeronimo lopez': { name: 'Experiencias Sun Monorepo', description: 'Experiencias Sun Monorepo', speaker: 'Jeronimo Lopez', speakerTitle: '', speakerImage: '', track: '5', when: '12:00-13:00' },
 
-    // 'track1-2': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '1', when: '13:00-14:00' },
-    // 'track3-2': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '3', when: '13:00-14:00' },
-    // 'track5-2': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '5', when: '13:00-14:00' },
+    'Carlos Fernandez': { name: 'El mastodonte en la habitacion. Redes sociales federadas', description: 'El mastodonte en la habitacion. Redes sociales federadas', speaker: '@sirikon', speakerTitle: '', speakerImage: '', track: '1', when: '13:00-14:00' },
+    'Cynthia Galvez': { name: 'Teletrabajo y conciliacion sin morir en el intento', description: 'Teletrabajo y conciliacion sin morir en el intento', speaker: '@icynthia', speakerTitle: '', speakerImage: '', track: '3', when: '13:00-14:00' },
+    'JM': { name: 'Functional Programing, ¿la nueva vieja moda?', description: 'Functional Programing, ¿la nueva vieja moda?', speaker: 'JM', speakerTitle: '', speakerImage: '', track: '5', when: '13:00-14:00' },
 
     'comida-1': { name: 'Comida: Viernes', description: `Comida: Viernes`, speaker: 'CyLicon Valley', speakerTitle: '', speakerImage: 'Wecode3.png', track: '-', when: '14:00-15:00' },
 
     'flipper-live': { name: 'Live Coding: Flipper', description: 'Live Coding: Flipper', speaker: 'Jorge J. Barroso', speakerTitle: '', speakerImage: 'jorge-barroso_c.png', track: '1', when: '15:00-15:30' },
     
-    // 'track1-3': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '1', when: '15:30-16:30' },
+    'Pablo Vicente': { name: 'Equipos distribuidos remote, herramientas y practicas', description: 'Equipos distribuidos remote, herramientas y practicas', speaker: 'Pablo Vicente', speakerTitle: '', speakerImage: '', track: '1', when: '15:30-16:30' },
     'julian-sierra-jm': { name: 'Apache Beam: procesando datos como churros', description: 'Apache Beam: procesando datos como churros', speaker: 'Julián Sierra', speakerTitle: '', speakerImage: 'julian_cuadrado.jpg', speaker2: 'Jose Manuel Navarro', speakerTitle2: '', speakerImage2: 'jm.jpeg', track: '2', when: '15:30-17:30' },
-    // 'track3-3': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '3', when: '15:30-16:30' },
-    // 'track4-3': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '4', when: '15:30-16:30' },
+    'Willy': { name: 'Luchando contra el sindrome del impostor', description: 'Luchando contra el sindrome del impostor', speaker: 'Willy', speakerTitle: '', speakerImage: '', track: '3', when: '15:30-16:30' },
+    'Mario Sanchez': { name: 'Formando el equipo fullstack definitivo', description: 'Formando el equipo Fullstack definitivo', speaker: 'Mario Sanchez & Alex', speakerTitle: '', speakerImage: '', track: '4', when: '15:30-16:30' },
     'cynthia-galvez': { name: '¿Mamarracha con filtro o genialidad? Realidad aumentada facial', description: '¿Mamarracha con filtro o genialidad? Realidad aumentada facial', speaker: 'Cynthia Gálvez', speakerTitle: '', speakerImage: 'CynthiaGalvez.jpg', track: '5', when: '15:30-17:30' },
 
-    // 'track1-4': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '1', when: '16:30-17:30' },
-    // 'track3-4': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '3', when: '16:30-17:30' },
-    // 'track4-4': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '4', when: '16:30-17:30' },
+     'Aritz': { name: 'Contract testing: real o fake', description: 'Contract testing: real o fake', speaker: 'Aritz', speakerTitle: '', speakerImage: '', track: '1', when: '16:30-17:30' },
+     'Ruben': { name: 'Acercando diseño a desarrollo', description: 'Acercando diseño a desarrollo', speaker: 'Ruben', speakerTitle: '', speakerImage: '', track: '3', when: '16:30-17:30' },
+     'Jimena Escobar': { name: 'Espacio de trabajo seguro', description: 'Espacio de trabajo seguro', speaker: 'Jimena Escobar', speakerTitle: '', speakerImage: '', track: '4', when: '16:30-17:30' },
 
     'cafe-1': { name: 'Café: Viernes', description: `Café: Viernes`, speaker: 'CyLicon Valley', speakerTitle: '', speakerImage: 'Wecode6.png', track: '-', when: '17:30-18:00' },
 
     'devo': { name: 'Procesando video en streaming para monitorización continua', description: 'Procesando video en streaming para monitorización continua', speaker: 'Elizabeth González', speakerTitle: '', speakerImage: 'elizabeth.png', track: '1', when: '18:00-19:00' },
     'luru': { name: 'Construye tu API REST con .NET Core 3.0', description: 'Construye tu API REST con .NET Core 3.0', speaker: 'Luis Ruiz Pavón', speakerTitle: '', speakerImage: 'LuisRuizPavon.jpg', track: '2', when: '18:00-20:00' },
-    // 'track3-5': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '3', when: '18:00-19:00' },
-    // 'track4-5': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '4', when: '18:00-19:00' },
-    // 'track5-5': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '5', when: '18:00-19:00' },
+    'Aritz': { name: 'Isolated vs Integrated testing', description: 'Isolated vs Integrated testing', speaker: 'Aritz', speakerTitle: '', speakerImage: '', track: '3', when: '18:00-19:00' },
+    'Ulises Gascon': { name: 'Open source 2020', description: 'Open source 2020', speaker: 'Ulises Gascon', speakerTitle: '', speakerImage: '', track: '4', when: '18:00-19:00' },
+    'Gortieja': { name: 'Logica de Datos, ¿en la BBDD o en la aplicación?', description: 'Logica de Datos, ¿en la BBDD o en la aplicación?', speaker: '@gortieja', speakerTitle: '', speakerImage: '', track: '5', when: '18:00-19:00' },
     
     'powerpoint': { name: 'PowerPoint Karaoke y comunicación efectiva', description: 'PowerPoint Karaoke y comunicación efectiva', speaker: 'Carlos Rueda', speakerTitle: '', speakerImage: '', track: '1', when: '19:00-20:00' },
-    // 'track3-6': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '3', when: '19:00-20:00' },
-    // 'track4-6': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '4', when: '19:00-20:00' },
-    // 'track5-6': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '5', when: '19:00-20:00' },
+    'David Arias': { name: 'OO and Functional, Big win?', description: 'OO and Functional, Big win?', speaker: 'David Arias', speakerTitle: '', speakerImage: '', track: '3', when: '19:00-20:00' },
+    'Javier Torres': { name: 'Serverless, las partes malas', description: 'Serverless, las partes malas', speaker: 'Javier Torres', speakerTitle: '', speakerImage: '', track: '4', when: '19:00-20:00' },
+    'Abel Rincon': { name: 'Test commit Reset', description: 'Test, commit , reset', speaker: 'Abel Rincon', speakerTitle: '', speakerImage: '', track: '5', when: '19:00-20:00' },
 
     'retrospectiva1': { name: 'Retrospectiva Viernes', description: 'Retrospectiva Viernes', speaker: 'CyLicon Valley', speakerTitle: '', speakerImage: 'Wecode1.png', track: '1', when: '20:00-20:15' },    
 
