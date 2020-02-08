@@ -89,4 +89,4 @@ Inside `docker-compose.yml`, in `services.app`, replace `image: eventtoolbox` wi
 * Add Talks: Edit `src/data/talks.js`. The key shouldn't be changed after the talk has feedback or questions.
 * Add Images: `src/static`
 
-The talks are in `src/data/talks.js`.
+The talks are in `src/data/talks.js`.!
