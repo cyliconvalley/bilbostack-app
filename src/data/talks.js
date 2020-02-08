@@ -52,14 +52,14 @@ const talks = {
     'ruben': { name: 'BFF: front tocando backend', description: 'BFF: front tocando backend', speaker: 'Ruben', speakerTitle: '', speakerImage: '', track: '5', when: '11:00-12:00' },
     'Carlos y Luis': { name: 'Server Critic la güé no va', description: 'Server Critic la güé no va', speaker: 'Carlos y Luis', speakerTitle: '', speakerImage: '', track: '5', when: '11:00-12:00' },
 
-    //'Eduardo': { name: 'Impresion 3D en 2020', description: 'Impresion 3D en 2020', speaker: 'Eduardo', speakerTitle: '', speakerImage: '', track: '1', when: '12:00-13:00' },
-    //'Flipper83': { name: 'Test in the shell', description: 'Test in the shell', speaker: 'Flipper83', speakerTitle: '', speakerImage: '', track: '3', when: '12:00-13:00' },
-    //'Javi Mostoles': { name: '#HourOrCode, eduacion + tecnologia', description: '#HourOrCode, eduacion + tecnologia', speaker: 'Javi Mostoles', speakerTitle: '', speakerImage: '', track: '5', when: '12:00-13:00' },
+    'Eduardo': { name: 'Impresion 3D en 2020', description: 'Impresion 3D en 2020', speaker: 'Eduardo', speakerTitle: '', speakerImage: '', track: '1', when: '12:00-13:00' },
+    'Flipper83': { name: 'Test in the shell', description: 'Test in the shell', speaker: 'Flipper83', speakerTitle: '', speakerImage: '', track: '3', when: '12:00-13:00' },
+    'Javi Mostoles': { name: '#HourOrCode, eduacion + tecnologia', description: '#HourOrCode, eduacion + tecnologia', speaker: 'Javi Mostoles', speakerTitle: '', speakerImage: '', track: '5', when: '12:00-13:00' },
 
     'codely': { name: 'Elige tu propia aventura: Nuestra primera tarea en ACME SL como Productivity Raptors™️', description: 'Elige tu propia aventura: Nuestra primera tarea en ACME SL como Productivity Raptors™️', speaker: 'Jorge Ferrer', speakerTitle: 'Codely TV', speakerImage: 'javier_ferrer.jpg', speaker2: 'Rafa Gómez', speakerTitle2: 'Codely TV', speakerImage2: 'rafa_gomez.jpg', track: '1', when: '13:00-14:00' },
-    //'MartaLopezPardal': { name: 'Vacaciones en la costa del sock', description: 'Vacaciones en la costa del sock', speaker: 'Marta Lopez Pardal', speakerTitle: '', speakerImage: '', track: '2', when: '13:00-14:00' },
-    //'tripu': { name: 'Tu navegador esta roto (criticism of the web)', description: 'Tu navegador esta roto (criticism of the web)', speaker: 'Tripu', speakerTitle: '', speakerImage: '', track: '3', when: '13:00-14:00' },
-    //'sanmibuh': { name: 'Validando sin bloatcodt', description: 'Validando sin bloatcodt', speaker: '@sanmibuh', speakerTitle: '', speakerImage: '', track: '4', when: '13:00-14:00' },
+    'MartaLopezPardal': { name: 'Vacaciones en la costa del sock', description: 'Vacaciones en la costa del sock', speaker: 'Marta Lopez Pardal', speakerTitle: '', speakerImage: '', track: '2', when: '13:00-14:00' },
+    'tripu': { name: 'Tu navegador esta roto (criticism of the web)', description: 'Tu navegador esta roto (criticism of the web)', speaker: 'Tripu', speakerTitle: '', speakerImage: '', track: '3', when: '13:00-14:00' },
+    'sanmibuh': { name: 'Validando sin bloatcodt', description: 'Validando sin bloatcodt', speaker: '@sanmibuh', speakerTitle: '', speakerImage: '', track: '4', when: '13:00-14:00' },
     // 'track5--3': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '5', when: '13:00-14:00' },
 
     'comida-2': { name: 'Comida: Sábado', description: `Comida: Sábado`, speaker: 'CyLicon Valley', speakerTitle: '', speakerImage: 'Wecode3.png', track: '-', when: '14:00-15:00' },
