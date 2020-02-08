@@ -44,6 +44,7 @@ const talks = {
 
     'open-space-2': { name: 'Preparación Open Space y Café', description: `Preparación Open Space y Café`, speaker: 'CyLicon Valley', speakerTitle: '', speakerImage: 'Wecode4.png', track: '-', when: '10:00-11:00' },
 
+
     // 'track1--1': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '1', when: '11:00-12:00' },
     'jimena': { name: 'Iniciación a la nube con AWS', description: `Iniciación a la nube con AWS`, speaker: 'Jimena Escobar', speakerTitle: '', speakerImage: 'jimena_escobar.png', track: '2', when: '11:00-13:00' },
     'dani': { name: 'Hardware Libre IT', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '3', when: '11:00-12:00' },
