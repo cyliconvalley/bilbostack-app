@@ -50,7 +50,7 @@ const talks = {
     'dani': { name: 'Hardware Libre IT', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '3', when: '11:00-12:00' },
     'elena': { name: '¿Sueñan los developers con entidades y tablas?', description: `¿Sueñan los developers con entidades y tablas?`, speaker: 'Elena Guzmán', speakerTitle: '', speakerImage: 'ElenaGuzmanBlanco.jpg', track: '4', when: '11:00-13:00' },
     'ruben': { name: 'BFF: front tocando backend', description: 'BFF: front tocando backend', speaker: 'Ruben', speakerTitle: '', speakerImage: '', track: '5', when: '11:00-12:00' },
-    'Carlos y Luis': { name: 'Server Critic la güé no va', description: 'Server Critic la güé no va', speaker: 'Carlos y Luis', speakerTitle: '', speakerImage: '', track: '5', when: '11:00-12:00' },
+    'Carlos-Luis': { name: 'Server Critic la güé no va', description: 'Server Critic la güé no va', speaker: 'Carlos y Luis', speakerTitle: '', speakerImage: '', track: '5', when: '11:00-12:00' },
 
     'Eduardo': { name: 'Impresion 3D en 2020', description: 'Impresion 3D en 2020', speaker: 'Eduardo', speakerTitle: '', speakerImage: '', track: '1', when: '12:00-13:00' },
     'Flipper83': { name: 'Test in the shell', description: 'Test in the shell', speaker: 'Flipper83', speakerTitle: '', speakerImage: '', track: '3', when: '12:00-13:00' },
@@ -66,7 +66,7 @@ const talks = {
 
     'ulises': { name: 'Live Coding: Ulises', description: 'Live Coding: Ulises', speaker: 'Ulises Gascon', speakerTitle: '', speakerImage: 'ulises_gascon.jpeg', track: '1', when: '15:00-15:30' },
     
-    'NLT, Roberto': { name: 'Trabajos parte legal. Offline', description: 'Trabajos parte legal. Offline', speaker: 'Ines y Maria. Roberto L.', speakerTitle: '', speakerImage: '', track: '1', when: '15:30-16:30' },
+    'NLT-Roberto': { name: 'Trabajos parte legal. Offline', description: 'Trabajos parte legal. Offline', speaker: 'Ines y Maria. Roberto L.', speakerTitle: '', speakerImage: '', track: '1', when: '15:30-16:30' },
     'jorge-sanz': { name: 'ElasticSearch geospatial capabilities', description: 'ElasticSearch geospatial capabilities', speaker: 'Jorge Sanz', speakerTitle: '', speakerImage: 'Jorge_Sanz.png', track: '2', when: '15:30-17:30' },
     'trikitrok': { name: 'Habilitando una arquitectura funcional en JS', description: 'Habilitando una arquitectura funcional en JS', speaker: '@trikitrok', speakerTitle: '', speakerImage: '', track: '3', when: '15:30-16:30' },
     'marta-lopez': { name: 'Ciber analista por un dia (ciber análisis)', description: 'Ciber analista por un dia (ciber análisis)', speaker: 'Marta López', speakerTitle: '', speakerImage: 'MartaLopezPardal.jpg', track: '4', when: '15:30-17:30' },
@@ -82,7 +82,7 @@ const talks = {
     'flipper': { name: 'Test end to end con Kotlin y Spring', description: 'Test end to end con Kotlin y Spring', speaker: 'Jorge J. Barroso', speakerTitle: '', speakerImage: 'jorge-barroso_c.png', track: '2', when: '18:00-20:00' },
     'Julian Sierra': { name: 'Apache Cassandra, que es y para que sirve', description: 'Apache Cassandra, que es y para que sirve', speaker: 'Julian Sierra', speakerTitle: '', speakerImage: '', track: '3', when: '18:00-19:00' },
     'Pepellou': { name: '¿Por que en desarrollo no tenemos juramento hipocratico? Hablemos de etica', description: ''¿Por que en desarrollo no tenemos juramento hipocratico? Hablemos de etica', speaker: 'Pepellou', speakerTitle: '', speakerImage: '', track: '4', when: '18:00-19:00' },
-    'Patori. Pablo Martinez': { name: 'New Job. Master Si / Master No', description: 'New Job. Master Si / Master No', speaker: 'Patori. Pablo', speakerTitle: '', speakerImage: '', track: '5', when: '18:00-19:00' },
+    'Patori-Pablo Martinez': { name: 'New Job. Master Si / Master No', description: 'New Job. Master Si / Master No', speaker: 'Patori. Pablo', speakerTitle: '', speakerImage: '', track: '5', when: '18:00-19:00' },
 
     'Angel Luis': { name: 'En mi local funciona. Como desarrollar un entorno local definitivo que nos ayude al onboarding y desarrollo', description: 'En mi local funciona. Como desarrollar un entorno local definitivo que nos ayude al onboarding y desarrollo', speaker: 'Angel Luis', speakerTitle: '', speakerImage: '', track: '1', when: '19:00-20:00' },
     'Adrian Arroyo': { name: 'Lock Picking', description: 'Lock Picking', speaker: 'Adrian Arroyo', speakerTitle: '', speakerImage: '', track: '3', when: '19:00-20:00' },
