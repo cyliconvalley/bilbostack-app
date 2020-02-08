@@ -86,7 +86,7 @@ const talks = {
 
     'Angel Luis': { name: 'En mi local funciona. Como desarrollar un entorno local definitivo que nos ayude al onboarding y desarrollo', description: 'En mi local funciona. Como desarrollar un entorno local definitivo que nos ayude al onboarding y desarrollo', speaker: 'Angel Luis', speakerTitle: '', speakerImage: '', track: '1', when: '19:00-20:00' },
     'Adrian Arroyo': { name: 'Lock Picking', description: 'Lock Picking', speaker: 'Adrian Arroyo', speakerTitle: '', speakerImage: '', track: '3', when: '19:00-20:00' },
-    // 'track4--7': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '4', when: '19:00-20:00' },
+     'Dani Carrion': { name: 'PostgreSQL Explain (Taller)', description: 'PostgreSQL Explain (Taller)', speaker: 'Dani Carrion', speakerTitle: '', speakerImage: '', track: '4', when: '19:00-20:00' },
     // 'track5--7': { name: 'NotImplemented', description: 'NotImplemented', speaker: '', speakerTitle: '', speakerImage: '', track: '5', when: '19:00-20:00' },     
 
     'wecode': { name: 'WeCode 2020', description: `Feedback general de la conferencia`, speaker: 'CyLicon Valley', speakerTitle: '', speakerImage: 'Wecode2.png', track: '-', when: '09:00-20:30' },
